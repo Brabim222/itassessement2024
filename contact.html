@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CONTACT PAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="contact.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="site-name">MyWebsite</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallary.html">Gallary</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">AboutUs</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <form name="contactForm" onsubmit="return validateForm()">
+            <label>Name:</label><br>
+            <input type="text" name="name"><br>
+            <label>Email:</label><br>
+            <input type="email" name="email"><br>
+            <label>Message:</label><br>
+            <textarea name="message"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+    <div class="des">
+        <p>My Web 1.5 Site &copy; 2025 | Lalitpur, Dhungin, Mahalaxmi Municipality ward no 9 | <a href="mailto:Brabimpoudel@gmail.com">Email Us</a></p>
+    </div>
+</body>
+</html>
